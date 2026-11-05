@@ -1,0 +1,16 @@
+# dsh-rococo-theme bundle patch
+#
+# 把本插件插入 profile 的 Loader 名册。浏览器端启动时会请求
+# /plugins/rococo-theme/client.js 并执行主题注入。
+#
+# 安装方式（本插件为纯浏览器端主题，无宿主能力）：
+#   dsh plugin --profile desktop add link:<本目录绝对路径>
+# 或手动：
+#   1. profile package.json 增加依赖 "dsh-rococo-theme": "link:<绝对路径>"
+#      并加入 dsh.profile.bundles
+#   2. node_modules 下建立同名符号链接指向本目录
+#   3. 重启 DSH
+
+- insert:
+    - id: rococo-theme
+      name: dsh-rococo-theme
