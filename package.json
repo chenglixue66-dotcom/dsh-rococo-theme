@@ -1,6 +1,6 @@
 {
   "name": "dsh-rococo-theme",
-  "version": "0.8.7",
+  "version": "0.8.8",
   "description": "洛可可风主题插件：把 DeepSeek Harness 的界面换成凡尔赛沙龙风格（雾蓝、银蓝与奶白）。A Rococo theme plugin for the DSH Web GUI — misty blue, silver and ivory.",
   "type": "module",
   "main": "lib/index.js",
