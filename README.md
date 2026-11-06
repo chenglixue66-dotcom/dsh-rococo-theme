@@ -14,9 +14,10 @@ A Rococo visual theme for the DSH Web GUI: misty blue, silver and ivory surfaces
 |---|---|
 | ![主页](assets/screenshot-home.png) | ![对话流](assets/screenshot-chat.png) |
 
-侧栏「洛可可」面板：
+授权卡与侧栏「洛可可」面板：
 
-![洛可可面板](assets/screenshot-panel.png)
+| ![Permission 许可信笺](assets/screenshot-permission.png) | ![洛可可面板](assets/screenshot-panel.png) |
+|---|---|
 
 ---
 
@@ -45,8 +46,9 @@ dsh plugin --profile desktop add link:/absolute/path/to/dsh-rococo-theme
 - **侧栏面板**：侧栏出现「洛可可」一行，点开是主题说明页——版本、样式表状态（已注入字符数）、两个对话头像的实时预览、设计要素清单，以及一个「重新注入样式表」按钮。
 - **对话头像**：助手与用户消息的圆形徽章由本主题绘制（见下方「头像」）。
 - **Bienvenue 纸面**：主页采用双线纸框、缎带书签、蝴蝶版画与左花体标题／右侧输入卡的构图；个人设置页和「洛可可」面板共用这套纸面语言。
+- **Permission 许可信笺**：所有授权请求统一为双线纸框、花体眉题、雾蓝详情区与火漆玫瑰；允许／始终允许／拒绝按钮及 Enter、Esc 快捷键保持原逻辑。
 
-## 组件清单 / Components（v0.8.2）
+## 组件清单 / Components（v0.8.3）
 
 | 组件 | 位置 | 效果 |
 |---|---|---|
