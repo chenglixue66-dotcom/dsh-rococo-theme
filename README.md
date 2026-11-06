@@ -48,7 +48,7 @@ dsh plugin --profile desktop add link:/absolute/path/to/dsh-rococo-theme
 - **Bienvenue 纸面**：主页采用双线纸框、缎带书签、蝴蝶版画与左花体标题／右侧输入卡的构图；个人设置页和「洛可可」面板共用这套纸面语言。
 - **Permission 许可信笺**：所有授权请求统一为双线纸框、花体眉题、雾蓝详情区与火漆玫瑰；允许／始终允许／拒绝按钮及 Enter、Esc 快捷键保持原逻辑。
 
-## 组件清单 / Components（v0.8.3）
+## 组件清单 / Components（v0.8.4）
 
 | 组件 | 位置 | 效果 |
 |---|---|---|
@@ -58,7 +58,8 @@ dsh plugin --profile desktop add link:/absolute/path/to/dsh-rococo-theme
 | 花体占位符 | 输入框 placeholder | 铜板手写体（Pinyon/Savoye/Snell 回退栈），雾蓝色 |
 | 火漆小牌 | 模型/权限 chips | 金边胶囊，选中态鎏金填充 |
 | 账簿对话流 | 消息流 | 34px 细金横线随内容滚动 + 22px 竖栏金线固定不动 |
-| 对话头像徽章 | 每条消息 | 32px 圆形：助手＝鲸鱼图（取挂件当前角色图，缺失时回退雾蓝渐变），用户＝香槟金 ❦ |
+| 对话头像徽章 | 每条消息 | 助手＝42px 原创白瓷小羊（内联 SVG），用户＝32px 香槟金 ❦ |
+| 白瓷工具图标 | 工具步骤行 | 雾蓝圆形瓷托 + 白色线性图标，保留原展开/收起行为 |
 | 回合分隔 | 消息之间 | 香槟发丝线 + 双菱花 |
 | 卷宗票根 | 工具调用卡片 | mask 真打孔月牙缺口（左右）+ 存根联（香槟 wash + 齿孔虚线）+ 悬停抽票感 |
 | 鎏金尾注 | 用量统计 | Cormorant 斜体 + 菱花前缀 |
@@ -76,7 +77,7 @@ dsh plugin --profile desktop add link:/absolute/path/to/dsh-rococo-theme
 
 两条消息的徽章都是主题用伪元素画的 32×32 圆，不是 DSH 自带组件：
 
-- **助手**：`background` 第一层是 `url("/dsh-whale/image.png")`——即 dsh-whale-widget 挂件当前角色图的同源地址，换角色图头像会跟着换；**没装那个挂件时图片加载失败，自动回退到雾蓝渐变圆**，不会出现破图。
+- **助手**：原创白瓷小羊，源文件为 `assets/lamb.svg`，并作为 base64 SVG 内联进主题；不依赖图片服务器或其他插件。
 - **用户**：香槟金径向渐变 + `❦` 字形。
 
 改法（都在 `lib/client.js` 的 CSS 模板里）：
@@ -135,7 +136,7 @@ dsh-rococo-theme/
 ## 已知限制 / Known limits
 
 - 侧栏入口默认会被插件侧栏折进「更多」；若想让「洛可可」常驻，需要在侧栏插件里把它加进常驻列表（本仓库不修改任何第三方插件）。
-- 助手头像依赖 dsh-whale-widget 提供的 `/dsh-whale/image.png` 才有图，否则是渐变圆。
+- 助手小羊和工具图标均内联绘制，离线也可用；无需安装任何挂件。
 
 ## License
 
