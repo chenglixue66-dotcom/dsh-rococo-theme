@@ -14,6 +14,10 @@ A Rococo visual theme for the DSH Web GUI: misty blue, silver and ivory surfaces
 |---|---|
 | ![主页](assets/screenshot-home.png) | ![对话流](assets/screenshot-chat.png) |
 
+落墨输入与朱砂印章：
+
+![输入框与印章发送按钮](assets/screenshot-composer.png)
+
 授权卡与侧栏「洛可可」面板：
 
 | ![Permission 许可信笺](assets/screenshot-permission.png) | ![洛可可面板](assets/screenshot-panel.png) |
@@ -47,8 +51,9 @@ dsh plugin --profile desktop add link:/absolute/path/to/dsh-rococo-theme
 - **对话头像**：助手与用户消息的圆形徽章由本主题绘制（见下方「头像」）。
 - **Bienvenue 纸面**：主页采用双线纸框、缎带书签、蝴蝶版画与左花体标题／右侧输入卡的构图；个人设置页和「洛可可」面板共用这套纸面语言。
 - **Permission 许可信笺**：所有授权请求统一为双线纸框、花体眉题、雾蓝详情区与火漆玫瑰；允许／始终允许／拒绝按钮及 Enter、Esc 快捷键保持原逻辑。
+- **落墨输入与朱砂印章**：打字时播放轻微流光并在光标处留下短暂墨线；发送按钮为朱砂印章，点击时下压、回弹并浮现「已印」。不改写文字、不拦截 Enter，也不改变发送逻辑。
 
-## 组件清单 / Components（v0.8.4）
+## 组件清单 / Components（v0.8.5）
 
 | 组件 | 位置 | 效果 |
 |---|---|---|
