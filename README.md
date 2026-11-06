@@ -8,6 +8,18 @@ A Rococo visual theme for the DSH Web GUI: misty blue, silver and ivory surfaces
 
 ---
 
+## 截图 / Screenshots
+
+| 主页 hero | 对话流 |
+|---|---|
+| ![主页](assets/screenshot-home.png) | ![对话流](assets/screenshot-chat.png) |
+
+侧栏「洛可可」面板：
+
+![洛可可面板](assets/screenshot-panel.png)
+
+---
+
 ## 安装 / Install
 
 ```bash

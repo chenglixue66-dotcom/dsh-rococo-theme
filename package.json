@@ -45,6 +45,7 @@
     "cordis.patch.yml",
     "README.md",
     "LICENSE",
-    "assets"
+    "assets",
+    "screenshots.json"
   ]
 }
