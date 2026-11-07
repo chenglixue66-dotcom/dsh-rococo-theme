@@ -14,10 +14,9 @@ A Rococo visual theme for the DSH Web GUI: misty blue, silver and ivory surfaces
 |---|---|
 | ![主页](assets/screenshot-home.png) | ![对话流](assets/screenshot-chat.png) |
 
-授权卡与侧栏「洛可可」面板：
+侧栏「洛可可」面板：
 
-| ![Permission 许可信笺](assets/screenshot-permission.png) | ![洛可可面板](assets/screenshot-panel.png) |
-|---|---|
+![洛可可面板](assets/screenshot-panel.png)
 
 ---
 
